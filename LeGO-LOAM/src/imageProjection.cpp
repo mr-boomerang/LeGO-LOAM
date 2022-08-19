@@ -256,7 +256,7 @@ public:
         }
     }
 
-
+    // TODO : This method is different than what's referenced in the paper (Himmelsbach et al.)
     void groundRemoval(){
         size_t lowerInd, upperInd;
         float diffX, diffY, diffZ, angle;
@@ -367,6 +367,8 @@ public:
         }
     }
 
+
+    // TODO : Need to figure out in-detail about this segmentation algorithms
     void labelComponents(int row, int col){
         // use std::queue std::vector std::deque will slow the program down greatly
         float d1, d2, alpha, angle;
