@@ -540,7 +540,7 @@ public:
                     imuYawCur = imuYaw[imuPointerFront];
 
                     imuVeloXCur = imuVeloX[imuPointerFront];
-                    imuVeloYCur = imuVeloY[imuPointerFront];labelMat
+                    imuVeloYCur = imuVeloY[imuPointerFront];
                     imuVeloZCur = imuVeloZ[imuPointerFront];
 
                     imuShiftXCur = imuShiftX[imuPointerFront];
